@@ -4,7 +4,7 @@
 --color-Navyblue:#2E2F42;
 --color-GREEN:#31D0AA;
 --color-SLATE:#434455;
---color-LIGHT SLATE:#8E8F99;
+--color-LIGHT-SLATE:#8E8F99;
 --color-CORNFLOWER:#E7E9FC;
 --color-CLOUD:#F4F4FD;
 --color-GREY:#2E2F42;
@@ -26,13 +26,33 @@
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 24px;
+  color: var(--color-WHITE);
   background-color: var(--color-IRIS);
-  color: #ffffff;
 }
 
 .service button:hover,
 .service button:focus {
   background-color: var(--color-OCEAM);
+  color: var(--color-WHITE);
+}
+
+.portfolio button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.64em;
+  line-height: 24px;
+  background-color: var(--color-CLOUD);
+  color: var(--color-IRIS);
+  border: var(--color-CORNFLOWER);
+  border-width: 1px;
+  
+}
+
+.portfolio button:hover,
+.portfolio button:focus {
+  color: var(--color-WHITE);
+  background-color: var(--color-OCEAN);
 }
 
 .navigation-link {
@@ -56,10 +76,10 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   line-height: 16px;
   text-decoration: none;
-  color: #434455;
+  color: var(--color-SLATE);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -70,7 +90,7 @@
 .text {
   font-family: "Roboto", sans-serif;
   font-weight: medium;
-  color: #434455;
+  color: var(--color-SLATE);
 }
 
 .logo {
@@ -79,7 +99,7 @@
   font-size: 18px;
   letter-spacing: 0.03em;
   line-height: 1.17;
-  color: var(--logo-color);
+  color: var(--color-IRIS);
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -148,6 +168,9 @@ h2 {
   color: var(--color-Navyblue);
 }
 
+.aims
+  {text-align: center;}
+
 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: medium;
@@ -166,7 +189,7 @@ body {
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  color: #434455;
+  color: var(--color-SLATE);
   background-color: var(--background-color);
 }
 
@@ -174,13 +197,13 @@ body {
 
 footer {
   font-family: "Roboto", sans-serif;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 24px;
-  color: #2f2f42;
   line-height: 1.17;
   background-color: var(--color-Navyblue);
+  color: var(--color-CLOUD);
 }
 
 address {
