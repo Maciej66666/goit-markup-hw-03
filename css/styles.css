@@ -16,6 +16,9 @@
 
 .service {
   background-color: var(--color-NAVYBLUE);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
 }
 
 .service button {
@@ -39,7 +42,7 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.64em;
+  letter-spacing: 0.04em;
   line-height: 24px;
   background-color: var(--color-CLOUD);
   color: var(--color-IRIS);
@@ -54,11 +57,19 @@
   background-color: var(--color-OCEAN);
 }
 
+.navigation {
+  width: 1440px;
+  height: 72px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
 .navigation-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.032em;
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.02em;
@@ -98,6 +109,9 @@
   color: var(--color-IRIS);
   text-transform: uppercase;
   text-decoration: none;
+  width: 44px;
+
+  margin: 24px 0px 4px 156px;
 }
 .logo2 {
   color: var(--color-NAVYBLUE);
@@ -128,7 +142,14 @@ ul {
 
 .list {
   list-style: none;
-  margin: 0;
+
+  margin: 24px 40px 24px 77px;
+}
+.menu {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 
 .service-title {
@@ -140,6 +161,9 @@ ul {
   color: var(--color-WHITE);
   background-color: var(--color-NAVYBLUE);
   text-align: center;
+  width: 496px;
+  height: 120px;
+  margin: 182px 472px 292px 472px;
 }
 
 h2 {
@@ -166,6 +190,9 @@ h2 {
 
 .middlesection {
   background-color: var(--color-CLOUD);
+  width: 1440px;
+  height: 732px;
+  flex-shrink: 0;
 }
 
 head {
@@ -179,6 +206,8 @@ body {
   line-height: 1.5;
   color: var(--color-SLATE);
   background-color: var(--color-WHITE);
+  width: 1440px;
+  height: 2592px;
 }
 
 footer {
@@ -190,8 +219,14 @@ footer {
   line-height: 1.17;
   background-color: var(--color-NAVYBLUE);
   color: var(--color-CLOUD);
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
 }
 
+.footer-text {
+  width: 264px;
+}
 address {
   font-style: normal;
 }
