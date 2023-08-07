@@ -30,6 +30,11 @@
   color: var(--color-WHITE);
   background-color: var(--color-IRIS);
   cursor: pointer;
+
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .service button:hover,
@@ -49,6 +54,13 @@
   border: var(--color-CORNFLOWER);
   border-width: 1px;
   cursor: pointer;
+}
+
+.portfolio {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 60px 60px 6px 600px;
 }
 
 .portfolio button:hover,
@@ -111,7 +123,7 @@
   text-decoration: none;
   width: 44px;
 
-  margin: 24px 0px 4px 156px;
+  margin: 50px 110px 41px 156px;
 }
 .logo2 {
   color: var(--color-NAVYBLUE);
@@ -138,6 +150,17 @@ ul {
 
 .ourteam {
   background-color: var(--color-WHITE);
+  margin: 23px 24px 12px 15px;
+  display: inline-flex;
+  padding-bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .list {
@@ -163,7 +186,7 @@ ul {
   text-align: center;
   width: 496px;
   height: 120px;
-  margin: 182px 472px 292px 472px;
+  margin: 1px 11px 1px 111px;
 }
 
 h2 {
@@ -226,7 +249,12 @@ footer {
 
 .footer-text {
   width: 264px;
+  margin: 140px 140px 100px 140px;
 }
 address {
   font-style: normal;
+}
+
+.middle-text {
+  width: 264px;
 }
