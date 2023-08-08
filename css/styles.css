@@ -60,6 +60,7 @@
   display: inline-flex;
   align-items: flex-start;
   gap: 24px;
+  align-content: center;
   margin-bottom: 60px 60px 6px 600px;
 }
 
@@ -75,6 +76,7 @@
   flex-shrink: 0;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid var(--color-WHITE);
 }
 
 .navigation-link {
@@ -100,6 +102,7 @@
   line-height: 16px;
   text-decoration: none;
   color: var(--color-SLATE);
+  margin: 21px 0px 0px 0px;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -123,7 +126,7 @@
   text-decoration: none;
   width: 44px;
 
-  margin: 50px 110px 41px 156px;
+  margin: 4px 110px 0px 156px;
 }
 .logo2 {
   color: var(--color-NAVYBLUE);
@@ -150,13 +153,15 @@ ul {
 
 .ourteam {
   background-color: var(--color-WHITE);
-  margin: 23px 24px 12px 15px;
+  margin: 23px 24px 0px 0px;
   display: inline-flex;
   padding-bottom: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   gap: 32px;
+
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -165,14 +170,34 @@ ul {
 
 .list {
   list-style: none;
-
-  margin: 24px 40px 24px 77px;
 }
 .menu {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
   flex-wrap: wrap;
+  margin: 24px 40px 0px 125px;
+}
+
+.menu-middle {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  height: 412px;
+  width: 1128px;
+  margin: 24px 40px 0px 125px;
+}
+
+.menu-bottom {
+  display: inline-flex;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  height: 732px;
+  width: 1440px;
+  margin: 24px 40px 0px 125px;
 }
 
 .service-title {
@@ -186,7 +211,9 @@ ul {
   text-align: center;
   width: 496px;
   height: 120px;
-  margin: 1px 11px 1px 111px;
+  display: block;
+
+  margin: 0 auto;
 }
 
 h2 {
