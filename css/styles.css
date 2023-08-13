@@ -64,6 +64,14 @@
   margin-bottom: 60px 60px 6px 600px;
 }
 
+..portfolio-MENU {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-content: center;
+  margin-bottom: 168px 427px 168px 427px;
+}
+
 .portfolio button:hover,
 .portfolio button:focus {
   color: var(--color-WHITE);
@@ -125,15 +133,23 @@
   text-transform: uppercase;
   text-decoration: none;
   width: 44px;
+  display: flex;
 
   margin: 4px 110px 0px 156px;
+  justify-content: center;
 }
 .logo2 {
   color: var(--color-NAVYBLUE);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .logo3 {
   color: var(--color-CLOUD);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .logo-secondpart {
   font-family: 'Raleway', sans-serif;
@@ -144,6 +160,9 @@
   color: var(--color-NAVYBLUE);
   background-color: var(--color-CORNFLOWER);
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ul {
@@ -176,7 +195,6 @@ ul {
   align-items: flex-start;
   gap: 40px;
   flex-wrap: wrap;
-  margin: 24px 40px 0px 125px;
 }
 
 .menu-middle {
@@ -185,8 +203,6 @@ ul {
   gap: 40px;
   flex-wrap: wrap;
   height: 412px;
-  width: 1128px;
-  margin: 24px 40px 0px 125px;
 }
 
 .menu-bottom {
@@ -196,8 +212,6 @@ ul {
   flex-wrap: wrap;
   flex-shrink: 0;
   height: 732px;
-  width: 1440px;
-  margin: 24px 40px 0px 125px;
 }
 
 .service-title {
@@ -213,7 +227,7 @@ ul {
   height: 120px;
   display: block;
 
-  margin: 0 auto;
+  margin: 15 auto 0 auto;
 }
 
 h2 {
@@ -243,6 +257,7 @@ h2 {
   width: 1440px;
   height: 732px;
   flex-shrink: 0;
+  padding: 120px 0px;
 }
 
 head {
@@ -284,4 +299,9 @@ address {
 
 .middle-text {
   width: 264px;
+}
+.container {
+  min-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
