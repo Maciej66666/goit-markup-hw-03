@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -20,27 +22,29 @@
   --font-secondary: 'Raleway', sans-serif;
 }
 
-.service {
-  background-color: var(--color-NAVYBLUE);
-  max-width: 1440px;
-  height: 600px;
-  flex-shrink: 0;
+.strategy {
+  display: flex;
+  gap: 24px;
 }
 
-.service button {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  line-height: 24px;
+.new {
+  padding: 120px 0;
+}
+.service {
+  background-color: var(--color-NAVYBLUE);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 188px 0;
+}
+
+.service-button {
   color: var(--color-WHITE);
   background-color: var(--color-IRIS);
   cursor: pointer;
-  margin: 140px 0px 0px 636px;
-  display: inline-flex;
   padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
+  margin-top: 48px;
+  border: none;
 }
 
 .service button:hover,
@@ -196,20 +200,6 @@ ul {
   margin: 0;
 }
 
-.ourteam {
-  background-color: var(--color-WHITE);
-  margin: 23px 24px 0px 0px;
-  display: inline-flex;
-  padding-bottom: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
 .list {
   list-style-type: none;
   margin-right: auto;
@@ -237,22 +227,9 @@ ul {
   justify-content: center;
 }
 
-.menu-bottom {
-  display: inline-flex;
-  align-items: flex-start;
-
-  flex-wrap: wrap;
-  flex-shrink: 0;
-  height: 432px;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 10px;
-  padding: 10px;
-
-  padding-left: 70px;
-  padding-right: 70px;
-  margin-right: 50px;
-  margin-left: 50px;
+.nowa_klasa_srodkowa {
+  display: flex;
+  gap: 24px;
 }
 
 .service-title {
@@ -348,9 +325,7 @@ address {
 .container {
   min-width: 1158px;
   padding: 0 15px;
-  margin: 0 auto 50px auto;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
 
 .container-in-header {
